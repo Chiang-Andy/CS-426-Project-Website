@@ -52,6 +52,10 @@ html {
     all: unset;
 }
 
+.NavigationOption:focus-within {
+    border: 2px solid white;
+}
+
 .CurrentNavigationOption {
     text-decoration: underline;
     font-weight: bold;

@@ -47,6 +47,9 @@ html {
     cursor: pointer;
 }
 
+.NavigationOption a {
+    all: unset;
+}
 
 .CurrentNavigationOption {
     text-decoration: underline;

@@ -1,3 +1,25 @@
-body {
-    color: red;
+html {
+    --page-background: #000000;
+    --main-text-foreground: #FFFFFF;
+
+    background-color: var(--page-background);
+}
+
+.PageHeader {
+    font-size: 1rem;
+    color: var(--main-text-foreground);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.HeaderTitle {
+    font-size: 3em;
+    text-align: center;
+}
+
+.HeaderSubTitle {
+    font-size: 1em;
+    text-align: center;
 }

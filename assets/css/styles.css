@@ -59,8 +59,9 @@ html {
 
 
 /* Page content */
-.Description p {
+.PageDescription p {
     text-align: center;
+    font-size: 1.2em;
 }
 
 .VideoContainer {
@@ -85,4 +86,52 @@ html {
 
 .VideoContainerCaption {
     margin-top: 0.7em;
+}
+
+
+
+.TeamMembersContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2em;
+}
+
+
+.TeamMember {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 1.5em;
+    height: 8em;
+}
+
+
+.TeamMemberImage {
+    aspect-ratio: 1 / 1;
+    height: 100%;
+}
+
+
+.TeamMemberDescription {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 1em;
+}
+
+
+.TeamMemberName {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.TeamMemberJobDescription {
+    font-size: 1em;
 }

@@ -77,7 +77,13 @@ html {
 }
 
 
-.VideoContainerVideo {}
+.VideoContainerVideo {
+    border: 2px solid red;
+    aspect-ratio: 16 / 9;
+    width: 40em;
+}
 
 
-.VideoContainerCaption {}
+.VideoContainerCaption {
+    margin-top: 0.7em;
+}

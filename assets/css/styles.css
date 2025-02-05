@@ -3,8 +3,8 @@ html {
     --page-background: #000000;
     --main-text-foreground: #FFFFFF;
 
-    background-color: var(--page-background) !important;
-    color: var(--main-text-foreground) !important;
+    background-color: var(--page-background);
+    color: var(--main-text-foreground);
 
     font-size: 1rem;
 }

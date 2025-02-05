@@ -1,5 +1,5 @@
 f/* Page setup */
-html {
+html, body {
     --page-background: #000000;
     --main-text-foreground: #FFFFFF;
 
@@ -7,6 +7,8 @@ html {
     color: var(--main-text-foreground);
 
     font-size: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header classes */

@@ -1,4 +1,4 @@
-/* Page setup */
+f/* Page setup */
 html {
     --page-background: #000000;
     --main-text-foreground: #FFFFFF;
@@ -89,8 +89,15 @@ html {
 
 
 .VideoContainerCaption {
-    margin-top: 0.7em;
+    display: block;
+    text-align: center;
+    max-width: 800px; 
+    margin: 20px auto; 
+    font-size: 16px; 
+    line-height: 1.6; 
+    padding: 10px;
 }
+
 
 
 
